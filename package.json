@@ -1,0 +1,28 @@
+{
+  "name": "answeringabortion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "export": "next build && next export && cp ./robots.txt ./out"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "classnames": "^2.2.6",
+    "express": "^4.16.4",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.11",
+    "next": "^8.0.4",
+    "next-routes": "^1.4.2",
+    "react": "16.7.0-alpha.0",
+    "react-dom": "16.7.0-alpha.0",
+    "react-icons": "^3.6.1",
+    "react-inlinesvg": "^0.8.4"
+  }
+}
