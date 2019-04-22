@@ -41,7 +41,7 @@ const HeadComponent = ({ image, showMenu, title, subtitle, url }) => {
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
-gtag('config', 'UA-138650935-1');`
+gtag('config', 'UA-138650935-1');`,
           }}
         />
       </Head>
@@ -83,7 +83,6 @@ gtag('config', 'UA-138650935-1');`
         .bebas {
           font-family: "Bebas Neue", "Helvetica Neue", sans-serif;
           font-weight: bold;
-          text-align: center;
         }
 
         body {
@@ -134,7 +133,8 @@ gtag('config', 'UA-138650935-1');`
         .paragraph,
         ol,
         ul,
-        blockquote {
+        blockquote,
+        .image {
           font-weight: 400;
           font-size: 21px;
           letter-spacing: -0.003em;
@@ -247,8 +247,26 @@ gtag('config', 'UA-138650935-1');`
           color: rgba(0, 0, 0, 0.84);
         }
 
+        .gray {
+          color: #757575;
+        }
+
         .center {
           text-align: center;
+        }
+
+        .p-20 {
+          padding: 20px;
+        }
+
+        .px-20 {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+        .py-20 {
+          padding-bottom: 20px;
+          padding-top: 20px;
         }
 
         .d-flex {
@@ -260,8 +278,18 @@ gtag('config', 'UA-138650935-1');`
           flex-wrap: wrap;
         }
 
+        .justify-content-center {
+          justify-content: center;
+        }
+
         .pn-light {
           font-weight: 100;
+        }
+
+        .superscript {
+          font-size: 14px;
+          position: relative;
+          top: -6px;
         }
 
         @media (max-width: 767px) {
