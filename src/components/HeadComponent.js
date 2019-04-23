@@ -106,6 +106,7 @@ gtag('config', 'UA-138650935-1');`,
         }
 
         h2 {
+          clear:both;
           font-size: 34px;
           font-weight: 500;
           letter-spacing: -0.015em;
@@ -115,6 +116,7 @@ gtag('config', 'UA-138650935-1');`,
         }
 
         h3 {
+          clear:both;
           font-size: 26px;
           font-weight: 500;
           letter-spacing: -0.012em;
