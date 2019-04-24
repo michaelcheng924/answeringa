@@ -1,7 +1,7 @@
 import Layout from "../src/components/Layout";
 import Container from "../src/components/Container";
 
-import { html, sources } from "../src/constants/conception-science";
+import { html, sources } from "../src/constants/conception";
 import { getHtmlWithReferences } from "../src/utils/html";
 
 export default () => {

@@ -28,7 +28,7 @@ const Home = ({ posts }) => {
           </div>
         </div>
         <div className="banner-title bebas">
-          To support abortion is to reject God, science, and reason.
+          Equipping the fight against abortion
         </div>
       </div>
       <Container>
