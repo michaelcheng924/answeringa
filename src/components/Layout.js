@@ -1,5 +1,6 @@
 import HeadComponent from "./HeadComponent";
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 export default ({ children, headData, boxShadow = true, noNav }) => {
   return (
@@ -8,6 +9,8 @@ export default ({ children, headData, boxShadow = true, noNav }) => {
       <Nav />
 
       <div className="content">{children}</div>
+
+      <Footer />
     </div>
   );
 };

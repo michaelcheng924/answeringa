@@ -1,5 +1,6 @@
 import fetch from "isomorphic-fetch";
 import { Link } from "../routes";
+import _ from "lodash";
 import moment from "moment";
 
 import Layout from "../src/components/Layout";
@@ -33,9 +34,15 @@ const Home = ({ posts }) => {
       </div>
       <Container>
         {posts.map(post => {
+          let urlPrefix = ``;
+
+          if (_.get(post, "tags.answers", "")) {
+            urlPrefix = "/answers/";
+          }
+
           return (
-            <Link key={post.ID} href={`/answers/${post.slug}`}>
-              <div
+            <Link key={post.ID} href={`${urlPrefix}${post.slug}`}>
+              <a
                 className="d-flex align-items-center"
                 style={{
                   marginBottom: 20,
@@ -60,7 +67,7 @@ const Home = ({ posts }) => {
                   />
                   <div className="gray">{moment(post.date).fromNow()}</div>
                 </div>
-              </div>
+              </a>
             </Link>
           );
         })}

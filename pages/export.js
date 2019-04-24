@@ -1,16 +1,16 @@
 import fetch from "isomorphic-fetch";
-import { each } from "lodash";
+import _ from "lodash";
 
 import { useEffect } from "react";
 
-export const pages = ["/"];
+export const pages = ["/", "privacy-policy", "terms-of-service"];
 
 let exports = {};
 
 pages.forEach(page => {
   exports = {
     ...exports,
-    [page]: { page }
+    [page]: { page },
   };
 });
 
@@ -22,12 +22,18 @@ const Export = ({ posts }) => {
   });
 
   posts.forEach(item => {
+    let urlPrefix = ``;
+
+    if (_.get(item, "tags.answers", "")) {
+      urlPrefix = "/answers/";
+    }
+
     exports = {
       ...exports,
-      [`/answers/${item.slug}`]: {
+      [`${urlPrefix}${item.slug}`]: {
         page: "/post",
-        query: { slug: item.slug }
-      }
+        query: { slug: item.slug },
+      },
     };
   });
 

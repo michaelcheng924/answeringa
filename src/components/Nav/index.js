@@ -1,5 +1,5 @@
+import { Link } from "../../../routes";
 import SVG from "react-inlinesvg";
-import { FiSearch } from "react-icons/fi";
 
 import Hamburger from "./Hamburger";
 import Menu from "./Menu";
@@ -11,12 +11,16 @@ const Nav = ({ showMenu, onToggleMenu }) => {
         <div
           className="d-flex"
           style={{
-            height: `100%`
+            height: `100%`,
           }}
         >
           <Hamburger />
-          <SVG className="hand-icon" src="/static/images/baby-hand.svg" />
-          <div className="app-name bebas">Answering Abortion</div>
+          <Link href="/">
+            <a className="d-flex">
+              <SVG className="hand-icon" src="/static/images/baby-hand.svg" />
+              <div className="app-name bebas">Answering Abortion</div>
+            </a>
+          </Link>
         </div>
         {/* <div>
           <div className="d-flex pn-light link">
