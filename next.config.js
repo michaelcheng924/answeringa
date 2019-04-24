@@ -2,6 +2,8 @@ module.exports = {
   exportPathMap: function() {
     return {
       "/": { page: "/" },
+      "privacy-policy": { page: "privacy-policy" },
+      "terms-of-service": { page: "terms-of-service" },
       "/answers/science-life-conception": {
         page: "/post",
         query: { slug: "science-life-conception" },

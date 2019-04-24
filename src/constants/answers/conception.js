@@ -33,7 +33,7 @@ export const sources = {
   [32]: `Bernard Nathanson, <em>Aborting America</em> (Garden City, N.Y.: Doubleday, 1979).`,
   [33]: `Shettles and Rorvik, <em>Rites of Life</em>, 103.`,
   [34]: `John C. Willke, <em>Abortion Questions and Answers</em> (Cincinnati, Ohio: Hayes Publishing, 1988), 42.`,
-  [35]: `Report, Subcommittee on Separation of Powers to Senate Judiciary Committee S-158, 97th Congress, 1st Session 1981, 7.`
+  [35]: `Report, Subcommittee on Separation of Powers to Senate Judiciary Committee S-158, 97th Congress, 1st Session 1981, 7.`,
 };
 
 export const html = `
@@ -42,7 +42,7 @@ export const html = `
 
 <p>This argument seeks to justify abortion by claiming that there is no objective, scientific basis for believing that a pre-born baby is an actual person, which means that a pre-born baby does not have any rights, including the right to live.</p>
 
-<h2>_ answers</h2>
+<h2>Six answers</h2>
 
 <p>This argument for abortion is extremely weak and easy to respond to. Use the links below to jump to the various responses to this pro-abortion argument.</p>
 
