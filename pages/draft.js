@@ -1,7 +1,7 @@
 import Layout from "../src/components/Layout";
 import Container from "../src/components/Container";
 
-import { html, sources } from "../src/constants/answers/distinct-dna";
+import { html, sources } from "../src/constants/answers/embryo-fetus";
 import { getHtmlWithReferences } from "../src/utils/html";
 
 export default () => {
