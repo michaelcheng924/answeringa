@@ -46,7 +46,7 @@ export const html = `
 
 <ol>
   <li><a href="https://www.apnews.com/b37f3907aeb747769b4ddc0035c8cc51" target="_blank">Baby delivered after mother fatally shot has died</a></li>
-  <li><a href="https://www.telegraph.co.uk/news/2018/11/13/baby-delivered-paramedics-pregnant-mother-dies-crossbow-attack/" target="_blank">Baby delivered by paramedics after pregnant mother dies in crossbow attack</a></li>
+  <li><a href="https://www.apnews.com/b37f3907aeb747769b4ddc0035c8cc51" target="_blank">Baby delivered by paramedics after pregnant mother dies in crossbow attack</a></li>
 </ol>
 
 <p>Furthermore, it is possible for a child to be born several months after the mother has been declared "brain dead."[3]</p>

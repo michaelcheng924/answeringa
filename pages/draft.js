@@ -1,11 +1,11 @@
 import Layout from "../src/components/Layout";
 import Container from "../src/components/Container";
 
-import { html, sources } from "../src/constants/answers/embryo-fetus";
+import { html, sources } from "../src/constants/answers/conversational-answers";
 import { getHtmlWithReferences } from "../src/utils/html";
 
 export default () => {
-  const htmlWithReferences = getHtmlWithReferences(html, sources);
+  const htmlWithReferences = sources ? getHtmlWithReferences(html, sources) : html;
 
   // if (!htmlWithReferences) {
   //   alert("References error!");
