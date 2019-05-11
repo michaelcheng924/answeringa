@@ -5,20 +5,26 @@ import Layout from "../src/components/Layout";
 import ImageHeader from "../src/components/ImageHeader";
 import Container from "../src/components/Container";
 
+import ConverstaionalProlifeAnswers from "../src/components/ConverstaionalProlifeAnswers";
+
 const Post = post => {
   const data = {
     title: post.title,
     subtitle: post.excerpt,
     image: post.featured_image,
-    url: `/answers/${post.slug}`
+    url: `/answers/${post.slug}`,
   };
+
+  let content = <div dangerouslySetInnerHTML={{ __html: post.content }} />;
+
+  if (post.slug === "conversational-prolife-answers") {
+    content = <ConverstaionalProlifeAnswers />;
+  }
 
   return (
     <Layout headData={data}>
       <ImageHeader {...data} />
-      <Container>
-        <div dangerouslySetInnerHTML={{ __html: post.content }} />
-      </Container>
+      <Container>{content}</Container>
     </Layout>
   );
 };

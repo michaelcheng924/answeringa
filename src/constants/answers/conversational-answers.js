@@ -1,6 +1,6 @@
 import _ from "lodash";
 
-const answers = {
+export const answers = {
   religious: {
     question: `The idea that human life begins at conception and fertilization is a religious belief and not something that we can know for sure.`,
     answer: `There's actually an overwhelming consensus among the scientific community that human life begins at conception. It's not at all just a religious belief. The only difference between a human being at conception and an adult human being is how far the human being is in development. I can also show you over 20 neutral, scientific sources that affirm that human life begins at conception.`,
@@ -60,118 +60,118 @@ const answers = {
     question: `God will forgive those who have abortions.`,
     answer: `Romans 2:4-5 says, "Do you presume on the riches of his kindness and forbearance and patience, not knowing that God's kindness is meant to lead you to repentance? But because of your hard and impenitent heart you are storing up wrath for yourself on the day of wrath when GOd's righteous judgment will be revealed." Basically, God won't forgive those who have the mindset that they can keep on intentionally sinning and God will always simply forgive them.`,
   },
-  // judge: {
-  //   question: `Judge not.`,
-  //   answer: ``,
-  // },
-  // prolife: {
-  //   question: `I'm pro-life, except in cases of rape.`,
-  //   answer: ``,
-  // },
+  judge: {
+    question: `Judge not.`,
+    answer: `Are you trying to quote the Bible? If so, you're misinterpreting that verse. The Bible actually teaches that we shouldn't judge <em>hypocritically</em>. After we have examined our own hearts and motives, we <em>should</em> judge in that we should tell people the truth about sin and evil.`,
+  },
+  rape: {
+    question: `I'm pro-life, except in cases of rape.`,
+    answer: `A woman who is raped is a victim of a horrific act of evil. Should we respond to one horrific act of evil with another horrific act of evil, the murder of an unborn baby? Rather than having two victims, we should seek to support and care for women who are raped.`,
+  },
   health: {
     question: `If you eat meat, you're a murderer, too.`,
     answer: `God has revealed through the Bible that humans alone, and not animals, are made in God's image. Because of this, it is okay for humans to kill (not abuse) an animal, and it is never okay for humans to murder another human being (Genesis 1:27).`,
   },
-  // abuse: {
-  //   question: `Abortions help prevent child abuse.`,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: ``,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: `I'm not married.`,
-  //   answer: ``,
-  // },
-  // xx: {
-  //   question: `It's better to be aborted than to be born with a serious health condition or deformity.`,
-  //   answer: ``,
-  // },
-  // pill: {
-  //   question: `The morning after pill is not the same as abortion.`,
-  //   answer: ``,
-  // },
-  // unwanted: {
-  //   question: `It's better to be aborted than to be unwanted.`,
-  //   answer: ``,
-  // },
+  motherdie: {
+    question: `Abortions should be legal when the life of the mother is at risk.`,
+    answer: `It is rarely, if ever, the case where aborting the unborn baby would save the life of the mother. If the unborn baby is a human life, then doctors should work towards saving both lives. If the unborn baby is inadvertently killed in the process, then that is a tragedy, but not murder. However, if the unborn baby is intentionally killed, then that is murder.`,
+  },
+  abuse: {
+    question: `Abortion prevents child abuse because unwanted babies are usually baused.`,
+    answer: `Abortion <strong>ensures</strong> the worst kind of child abuse&mdash;killing the child.`,
+  },
+  right: {
+    question: `Abortion is simply a woman's right.`,
+    answer: `Does anyone have the right to murder a six-month old baby? If not, then why should women have the right to kill an unborn human baby?`,
+  },
+  fake: {
+    question: `Those graphic images are fake.`,
+    answer: `This accusation is completely baseless and false. Here is the evidence that they are real: <a href="https://www.abortionno.org/lawsuits/verifying-photograph-authenticity/" target="_blank">https://www.abortionno.org/lawsuits/verifying-photograph-authenticity/</a>.`,
+  },
+  legal: {
+    question: `Abortion is legal.`,
+    answer: `Slavery used to be legal, too. All the atrocities committed during the Holocaust were "legal," according to the laws of Germany. Just because something is legal doesn't mean it is right. Is it legal to murder a six-month old baby? Then why should it be legal to kill an unborn baby?`,
+  },
+  heaven: {
+    question: `All aborted babies go to heaven anyways.`,
+    answer: `But what about you? Revelation 21:8 says that all unrepentant murderers will end up in hell. One reason why we speak the truth about abortion is because we don't want that to happen to you.`,
+  },
+  pain: {
+    question: `Abortion is okay as long as the baby is young enough to not feel pain.`,
+    answer: `Is it okay to shoot a person in the head? That person wouldn't feel any pain because death would happen instantly. Is it okay to dismember a living person who is under general anesthesia? If not, then what's different about killing an unborn baby?`,
+  },
+  afford: {
+    question: `What if a mother can't afford a child at that time?`,
+    answer: `If parents feel that they can't afford their child who is born, should they be allowed to kill the child? Then what's different about killing an unborn human baby for this reason?`,
+  },
+  dontwant: {
+    question: `I just don't want the baby.`,
+    answer: `There are countless people who <strong>do</strong> want your baby. Putting your baby up for adoption would be a loving thing to do, for both the baby and the family who would love that baby.`,
+  },
+  damaged: {
+    question: `The unborn baby has a serious health condition.`,
+    answer: `We are very sorry to hear this, and we grieve with you. But, ending a life before natural death is still murder. Please leave death in the hands of God, and do all you can to protect the baby as long as you can. That's what parents should do for born children. Is there anything different about an unborn child?`,
+  },
+  righttime: {
+    question: `It's not the right time for me to be a mother.`,
+    answer: `If you truly feel you cannot be a mother at this time, then why not allow the baby to be adopted, rather than killing the baby?`,
+  },
+  painadoption: {
+    question: `No woman should have to go through the pain of putting a baby up for adoption.`,
+    answer: `We understand that it can be difficult to experience putting a baby up for adoption. But, what would be the alternative? Killing and murdering the human unborn baby?`,
+  },
+  shame: {
+    question: `You are terrible because you are shaming women.`,
+    answer: `Would it be shameful for a mother to murder her born baby by throwing him or her in the trash or in the river? If a woman is making a shameful decision, then we should make her aware of what she is doing, in a loving manner. We want to help both the mother and the baby, and sometimes the best way to do this is a forceful rebuke.`,
+  },
+  another: {
+    question: `I don't want another child.`,
+    answer: `Your unborn baby is already your child. Would you ever consider killing one of your born children? Then, why would you kill your unborn child? Adoption is also always an option instead of murder.`,
+  },
+  heart: {
+    question: `God knows my heart.`,
+    answer: `That should scare you because right now, you are choosing to kill an innocent, unborn, human baby, which is something that God hates and will punish. Right now, your heart is set on doing an evil thing. Jeremiah 17:9 says that the heart is deceitful above all things.`,
+  },
+  godkills: {
+    question: `But God kills people too.`,
+    answer: `God is sovereign and has the authority to give and take life, according to Job 1:21. We don't have that authority.`,
+  },
+  overpopulation: {
+    question: `Abortion helps prevent overpopulation.`,
+    answer: `Would you opt to kill yourself to help prevent overpopulation? Would you recommend killing living humans? Then, why would you support killing unborn human babies? Furthermore, what's your evidence that overpopulation is truly a problem? People throughout history have severely overestimated the problem of overpopulation.`,
+  },
+  clinicgood: {
+    question: `Abortion clinics also do good, non-abortion services for women.`,
+    answer: `If a hospital murdered one out of every ten patients, would it still be a good place to go? If a store or restaurant murdered one out of every ten of its customers, would it still be a good place to go? If not, then why would it be acceptable to go to an abortion clinic, when there are plenty of other options for those other good, non-abortion services?`,
+  },
+  heartbeat: {
+    question: `It's not murder as long as the heart isn't beating yet.`,
+    answer: `It's a scientific fact that the unborn baby is a distinct human being at the time of conception, so abortion at any time is the killing and ending of a human life, which is murder. In any case, the baby's heart is already beating around the time the mother takes the pregnancy test.`,
+  },
+  whataboutyou: {
+    question: `What are you doing about children who are already born who need help?`,
+    answer: `Not enough, but I am doing things. But, regardless of what or how much I am doing for children who are born, it is still always wrong to murder an unborn human baby.`,
+  },
+  father: {
+    question: `I don't know who the father is.`,
+    answer: `Not knowing who the father is doesn't justify killing the unborn human baby.`,
+  },
+  didntask: {
+    question: `I didn't ask, or want, to be pregnant.`,
+    answer: `Even if a pregnancy is unplanned, does that make it right to kill an unborn human baby?`,
+  },
+  againstbutsupport: {
+    question: `I'm personally against abortion, but...`,
+    answer: `Would you every say, "I'm personally against women being raped, BUT..." or, "I'm personally against the mass murder of Jews, But..."? If you support abortion in any way, then you're not really personally against abortion. You're aiding and abetting in the murder of an unborn human baby.`,
+  },
+  pill: {
+    question: `The morning after pill is not the same as abortion.`,
+    answer: `Scientifically, a human life begins at conception. Contraceptive pills that prevent implantation after conception and fertilization are abortion because they end a human life that has already begun developing.`,
+  },
+  potential: {
+    question: `My life is worth more than a potential life.`,
+    answer: `Scientifically, the baby in the womb is not a potential life, but an actual human life. The only difference is that it is earlier in its development. It's wrong to kill a human being because of size, location, or level of development, so it's wrong to kill the unborn human baby in the womb.`,
+  },
 };
 
 let index2 = 0;

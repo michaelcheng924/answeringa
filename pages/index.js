@@ -23,10 +23,6 @@ const Home = ({ posts }) => {
       <div className="banner-container">
         <div className="banner-image-section">
           <img className="banner-image" src="/static/images/home-7-weeks.jpg" />
-          <div className="banner-image-caption">
-            3d rendered medically accurate illustration of a human fetus,{" "}
-            <strong>week 7</strong>
-          </div>
         </div>
         <div className="banner-title bebas">
           Equipping the fight against abortion
@@ -77,6 +73,13 @@ const Home = ({ posts }) => {
         .banner-container {
           align-items: center;
           display: flex;
+          justify-content: center;
+        }
+
+        @media (max-width: 384px) {
+          .banner-container {
+            margin-top: 20px;
+          }
         }
 
         .banner-image-section {
@@ -85,6 +88,12 @@ const Home = ({ posts }) => {
           justify-content: center;
           padding: 20px;
           position: relative;
+        }
+
+        @media (max-width: 384px) {
+          .banner-image-section {
+            order: -1;
+          }
         }
 
         .banner-image-caption {

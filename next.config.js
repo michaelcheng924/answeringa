@@ -4,6 +4,13 @@ module.exports = {
       "/": { page: "/" },
       "privacy-policy": { page: "privacy-policy" },
       "terms-of-service": { page: "terms-of-service" },
+      "conversational-prolife-answers": {
+        page: "conversational-prolife-answers",
+      },
+      "/answers/conversational-prolife-answers": {
+        page: "/post",
+        query: { slug: "conversational-prolife-answers" },
+      },
       "/answers/fetus-embryo-not-baby": {
         page: "/post",
         query: { slug: "fetus-embryo-not-baby" },
